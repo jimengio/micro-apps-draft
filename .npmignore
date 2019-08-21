@@ -4,7 +4,8 @@
 .gitignore
 .prettierrc
 dist
-example
+container
+apps
 template.ejs
 tsconfig.json
 webpack

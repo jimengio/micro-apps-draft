@@ -8,7 +8,7 @@ const distFolder = "dist";
 module.exports = {
   mode: "development",
   target: "node",
-  entry: ["./example/gen-router.ts"],
+  entry: ["./container/gen-router.ts"],
   output: {
     filename: "gen-router.js",
     path: path.join(__dirname, "../", distFolder),
@@ -56,7 +56,7 @@ module.exports = {
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
-    modules: [path.join(__dirname, "example"), "node_modules"],
+    modules: [path.join(__dirname, "container"), "node_modules"],
     plugins: [new TsconfigPathsPlugin({ configFile: path.join(__dirname, "../tsconfig.json") })],
   },
   plugins: [

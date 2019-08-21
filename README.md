@@ -1,28 +1,19 @@
-## Workflow
+## experimental project for Micro Apps
 
-> A project template based on TypeScript, React, immer, emotion, rex, ruled-router...
+> 详细计划对应任务 https://www.teambition.com/task/5d5cba157219bb00182dce4a
 
-### Usage
+目录划分:
 
-Dev:
+* `container/` 容器应用
+* `src/` 复用逻辑抽象
+* `apps/` 容易包含的子应用
 
-```bash
-yarn dll
-yarn dev
-```
+TODO
 
-Compile library:
-
-```bash
-yarn compile
-```
-
-Release:
-
-```bash
-yarn release
-# yarn serve
-```
+* `iframe` 对应 React 组件封装
+* 示例的子应用和相关交互
+* 路由和参数跨页面传递机制
+* ...
 
 ### Workflow
 
